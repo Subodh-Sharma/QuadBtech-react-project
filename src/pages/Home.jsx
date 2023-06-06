@@ -14,7 +14,7 @@ const Home = () => {
     },[]);
   return (
     <Box display="flex" w="90%" alignItems="center" margin="auto" marginTop="1rem">
-        <SimpleGrid columns={3} spacing={6} margin="auto">
+        <SimpleGrid columns={{sm:1, md:2, lg:3}} spacing={6} margin="auto">
             {movieData && movieData.map((item)=><Box w='100%'><MovieCard key={item.show.id}{...item}/></Box>)}
         </SimpleGrid>
     </Box>

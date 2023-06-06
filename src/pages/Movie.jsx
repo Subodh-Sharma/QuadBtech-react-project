@@ -10,7 +10,7 @@ const Movie = () => {
   const show = location.state.show;
 
   return (
-    <Box display="flex">
+    <Box display="flex" flexDir={{sm: "column",md:"column",lg:"row"}}>
       <Box flex="1" borderRight="2px solid black">
         <Stack mt="6" spacing="3">
           <Image

@@ -24,8 +24,8 @@ const BookingForm = () => {
     }
 
   return (
-    <Box h="100vh" w="60%" margin="auto">
-     <VStack spacing="5px" marginTop="1.5rem" border="2px solid black" padding="40px">
+    <Box w="60%" margin="auto">
+     <VStack spacing="5px" marginTop="1.5rem" h="100%" border="2px solid black" padding="40px">
         <Heading>Movie Booking Form</Heading>
       <FormControl isRequired>
         <FormLabel>Movie Name</FormLabel>
